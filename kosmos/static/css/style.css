@@ -1,0 +1,8 @@
+.container li {
+    display: inline-block;
+    list-style-type: none;
+    background: linear-gradient(180deg, transparent 70%, rgb(114, 240, 191) 60%);
+    background-position: right 165px top 0;
+    background-repeat: no-repeat;
+    transition: .5s;
+}

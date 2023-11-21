@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+
+{% endblock title %}
+
+
+{% block content %}
+     <div class="container mt-3">
+         <h2 class="text-center">{{ titile }}</h2>
+         <div class="card border-0">
+             <div class="card-body text-center">
+                 <img src="{% static photo %}" class="img-thumbnail mx-auto d-block" alt="Cinque Terre"></div>
+             <p class="text-center">{{ desc }}</p>
+             <a href="{{ more }}" class="text-center">Подробнее</a>
+         </div>
+     </div>
+{% endblock content %}
